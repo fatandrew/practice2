@@ -18,7 +18,7 @@ SetZero setZero = new SetZero();
         int i = 2;
         int expected = 4;
         int actualResult = setZero.set(a, i);
-        
+
         Assert.assertEquals(expected,actualResult);
     }
 }

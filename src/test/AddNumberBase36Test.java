@@ -14,10 +14,11 @@ AddNumberBase36 addNumberBase36=new AddNumberBase36();
 
     @Test
 public void testAddNumber36() throws Exception{
-String a="1";
-        String b = "d";
-        String expected="2";
+String a="2";
+        String b = "k";
+        String expected="4";
         String actualResult = addNumberBase36.add(a, b);
+        System.out.println(actualResult);
         Assert.assertEquals(expected,actualResult);
     }
 
