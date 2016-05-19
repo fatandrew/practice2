@@ -14,9 +14,9 @@ AddNumberBase36 addNumberBase36=new AddNumberBase36();
 
     @Test
 public void testAddNumber36() throws Exception{
-String a="2";
-        String b = "k";
-        String expected="4";
+String a="zjfghfhdsdfathjjhgjhghjfjfjhjhdsrreqqklhu456hfz5";
+        String b = "wsfgsgds56346263fgfhghfghfhgfsrr5476hjfgdhdhg3N";
+        String expected="b";
         String actualResult = addNumberBase36.add(a, b);
         System.out.println(actualResult);
         Assert.assertEquals(expected,actualResult);
